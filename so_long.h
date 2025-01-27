@@ -53,13 +53,13 @@ typedef struct s_short
 
 typedef struct s_game
 {
-    void    *win;
-    void    *img;
-    void    *img_wall;
-    void    *img_empty;
-    void    *img_collectible;
-    void    *img_exit;
-    void    *img_player;
+    void		*win;
+    void		*img;
+    void		*img_wall;
+    void		*img_empty;
+    void		*img_collectible;
+    void	    *img_exit;
+    void		*img_player;
 	void			*mlx;
 	int				collectibles;
 	int				tilesize;
